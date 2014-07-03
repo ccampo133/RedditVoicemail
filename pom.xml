@@ -6,6 +6,7 @@
     <groupId>ccampo133.redditvoicemail</groupId>
     <artifactId>redditvoicemail</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <name>reddit-voicemail</name>
     <description>A voicemail inbox for reddit.</description>
@@ -27,11 +28,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>provided</scope>
         </dependency>
+        -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -53,5 +56,4 @@
         </plugins>
     </build>
 
-    <packaging>war</packaging>
 </project>
